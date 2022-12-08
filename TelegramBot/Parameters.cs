@@ -8,4 +8,10 @@ public class Parameters
         WheatherApiKey = "none";
         TelegramApiKey = "none";
     }
+
+    public Parameters(string wheatherApiKey, string telegramApiKey)
+    {
+        WheatherApiKey = wheatherApiKey;
+        TelegramApiKey = telegramApiKey;    
+    }
 }
